@@ -1,0 +1,207 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo fontes globais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o header */
+header {
+    background: linear-gradient(45deg, #6a1b9a, #8e44ad);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo a {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Modificação para o efeito hover, aumentando o tamanho e mudando a cor */
+header nav a:hover {
+    color: #f8c0c0;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+/* Estilo para a barra de navegação com efeito de hover */
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li a {
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Seção História da Música */
+.historia-musica {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: white; 
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.historia-musica h1 {
+    font-size: 2.8em;
+    color: #8e44ad;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.historia-musica h1:hover {
+    transform: scale(1.1); 
+}
+
+.historia-musica p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.imagem-principal {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Seção Marcos Históricos */
+.marcos-historicos {
+    padding: 50px 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.marcos-historicos h2 {
+    font-size: 2.5em;
+    color: #9b59b6;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.marcos-historicos h2:hover {
+    transform: scale(1.1); 
+}
+
+.marco {
+    background: #f9f9f9;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.imagem-marco {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.texto-marco {
+    max-width: 70%;
+}
+
+.texto-marco h3 {
+    font-size: 1.8em;
+    color: #8e44ad;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.texto-marco h3:hover {
+    transform: scale(1.1);
+}
+
+.texto-marco p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(45deg, #9b59b6, #8e44ad);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .imagem-texto {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem-marco {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .texto-marco h3 {
+        font-size: 1.5em;
+    }
+
+    .historia-musica h1 {
+        font-size: 2.2em;
+    }
+}

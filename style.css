@@ -1,0 +1,284 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo fontes globais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+    background-color: #f5f5f5; /* Cor de fundo mais suave */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para o header */
+header {
+    background: linear-gradient(45deg, #6a1b9a, #8e44ad); /* Gradiente moderno */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Modificação para o efeito hover, aumentando o tamanho e mudando a cor */
+header nav a:hover {
+    color: #f8c0c0;  /* Cor suave ao passar o mouse */
+    text-decoration: underline;
+    font-size: 22px;  /* Aumenta o tamanho da fonte */
+}
+
+/* Estilo para a barra de navegação com efeito de hover */
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li a {
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Estilo para o main e as seções */
+main {
+    padding: 40px 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 70px; /* Mais espaço abaixo da seção */
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #6a1b9a;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Estilo para a seção "Sobre o Blog" */
+.about-blog {
+    text-align: center;
+    margin-top: 100px; /* Mais espaço entre as seções */
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-blog h2 {
+    font-size: 32px;
+    color: #6a1b9a;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-blog p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+/* Estilo para os artigos de destaque */
+.highlights {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* Estilo para os artigos de destaque */
+.highlights article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center; /* Garante que o conteúdo seja centralizado */
+}
+
+/* Estilo para as imagens dentro dos artigos em destaque */
+.highlights img {
+    width: 100%; /* A imagem ocupa 100% da largura do artigo */
+    max-width: 600px; /* Tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas */
+    display: block; /* Garante que a imagem seja exibida como bloco */
+    margin: 0 auto 20px; /* Centraliza a imagem e adiciona margem inferior */
+}
+
+/* Estilo para o título "História da Música" */
+.highlights h3 {
+    font-size: 24px;
+    color: #6a1b9a;
+    margin-top: 20px; /* Espaço acima do título */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo para o parágrafo dentro dos artigos de destaque */
+.highlights p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para o footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #6a1b9a, #8e44ad);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Animação para o footer */
+footer p {
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Resetando algumas configurações básicas para uma base limpa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Estilizando o Header */
+.site-header {
+    background-color: #6a1b9a; /* Roxo intenso */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.site-header .logo a {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.site-nav ul li {
+    margin: 0 15px;
+}
+
+.site-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.site-nav ul li a:hover {
+    color: #ff4081; /* Efeito de hover com cor pink */
+}
+
+/* Estilizando a Seção de Artistas da Moda */
+.artistas-da-moda {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.artistas-da-moda h1 {
+    font-size: 2.5em;
+    color: #6a1b9a;
+    margin-bottom: 20px;
+}
+
+.artistas-da-moda p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Estilizando o Rodapé */
+.site-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.site-footer p {
+    font-size: 0.9em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .site-nav ul {
+        flex-direction: column;
+    }
+
+    .site-nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .artistas-da-moda h1 {
+        font-size: 2em;
+    }
+
+    .artistas-da-moda p {
+        font-size: 1em;
+    }
+}
+

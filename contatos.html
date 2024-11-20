@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contato - Blog de Música</title>
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo">
+            <a href="index.html">Blog de Música</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia-da-musica.html">História da Música</a></li>
+                <li><a href="artistas.html">Artistas da Moda</a></li>
+                <li><a href="curiosidades-musicais.html">Curiosidades Musicais</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="pesquisa.html">Pesquisa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner de Contato -->
+    <section class="banner-contato">
+        <h1>Entre em Contato Conosco!</h1>
+        <p>Tem alguma dúvida ou sugestão? Envie-nos uma mensagem.</p>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <main>
+        <section class="formulario-contato">
+            <h2>Fale Conosco</h2>
+            <form action="enviar-contato.php" method="POST">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2024 Blog de Música. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo fontes globais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais moderna */
+    background-color: #f5f5f5; /* Cor de fundo mais suave */
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Estilo para o header */
+header {
+    background: linear-gradient(45deg, #6a1b9a, #8e44ad); /* Gradiente moderno */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo a {
+    font-size: 28px;
+    color: white; /* Garante que o logo seja branco */
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none; /* Garante que o link não tenha sublinhado */
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Modificação para o efeito hover, aumentando o tamanho e mudando a cor */
+header nav a:hover {
+    color: #f8c0c0;  /* Cor suave ao passar o mouse */
+    text-decoration: underline;
+    font-size: 22px;  /* Aumenta o tamanho da fonte */
+}
+
+/* Estilo para a barra de navegação com efeito de hover */
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li a {
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.banner-pesquisa {
+    background-color: #59069c;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.banner-pesquisa h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.banner-pesquisa p {
+    font-size: 18px;
+}
+
+.tabela-pesquisa {
+    background-color: white;
+    padding: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-pesquisa h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #770186;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+footer {
+    background: linear-gradient(45deg, #9b59b6, #8e44ad);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}

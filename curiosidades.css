@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #6a1b9a, #8e44ad);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo a {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover {
+    color: #f8c0c0;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li a {
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.curiosidades-musicais {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.curiosidades-musicais h1 {
+    font-size: 2.5em;
+    color: #6a1b9a;
+    margin-bottom: 30px;
+}
+
+.curiosidade {
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.curiosidade h2 {
+    font-size: 1.8em;
+    color: #6a1b9a;
+    margin-bottom: 15px;
+}
+
+.curiosidade p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.curiosidade p:hover {
+    color: #8e44ad;
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+footer {
+    background: linear-gradient(45deg, #6a1b9a, #8e44ad);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
